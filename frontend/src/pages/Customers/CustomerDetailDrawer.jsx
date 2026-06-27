@@ -73,7 +73,7 @@ export default function CustomerDetailDrawer({ open, customer, onClose, onUpdate
       <div className="fixed top-0 right-0 h-full w-full max-w-md z-50 flex flex-col bg-white dark:bg-slate-900 shadow-2xl border-l border-slate-100 dark:border-slate-800 overflow-hidden">
 
         {/* Header */}
-        <div className="bg-gradient-to-r from-emerald-600 to-teal-600 px-5 py-5 shrink-0">
+        <div className="bg-gradient-to-r from-brand-600 to-brand-700 px-5 py-5 shrink-0">
           <div className="flex items-start justify-between mb-4">
             <span className="text-xs font-semibold bg-white/20 text-white px-2.5 py-1 rounded-full">
               Customer
